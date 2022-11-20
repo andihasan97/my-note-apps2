@@ -4,6 +4,18 @@
         "source": "com.andihasan7.mynoteapp2.app-main-37:/layout/activity_note_add_update.xml"
     },
     {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-mergeDebugResources-34:/layout/activity_note_add_update.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/layout/activity_note_add_update.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-mergeDebugResources-34:/layout/activity_main.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.andihasan7.mynoteapp2.app-mergeDebugResources-34:/layout/item_note.xml",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/layout/item_note.xml"
+    },
+    {
         "merged": "com.andihasan7.mynoteapp2.app-mergeDebugResources-34:/layout/activity_main.xml",
         "source": "com.andihasan7.mynoteapp2.app-main-37:/layout/activity_main.xml"
     }

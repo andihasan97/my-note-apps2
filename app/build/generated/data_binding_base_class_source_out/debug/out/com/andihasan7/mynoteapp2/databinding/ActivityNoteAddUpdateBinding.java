@@ -4,48 +4,47 @@ package com.andihasan7.mynoteapp2.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.andihasan7.mynoteapp2.R;
-import com.google.android.material.appbar.AppBarLayout;
-import com.google.android.material.appbar.MaterialToolbar;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityNoteAddUpdateBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final AppBarLayout appbar;
+  public final LinearLayout activityFormAddUpdate;
 
   @NonNull
-  public final CoordinatorLayout coordinator;
+  public final Button btnSubmit;
 
   @NonNull
-  public final NestedScrollView nestedScrollView;
+  public final EditText edtDescription;
 
   @NonNull
-  public final MaterialToolbar toolbar;
+  public final EditText edtTitle;
 
-  private ActivityNoteAddUpdateBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull AppBarLayout appbar, @NonNull CoordinatorLayout coordinator,
-      @NonNull NestedScrollView nestedScrollView, @NonNull MaterialToolbar toolbar) {
+  private ActivityNoteAddUpdateBinding(@NonNull LinearLayout rootView,
+      @NonNull LinearLayout activityFormAddUpdate, @NonNull Button btnSubmit,
+      @NonNull EditText edtDescription, @NonNull EditText edtTitle) {
     this.rootView = rootView;
-    this.appbar = appbar;
-    this.coordinator = coordinator;
-    this.nestedScrollView = nestedScrollView;
-    this.toolbar = toolbar;
+    this.activityFormAddUpdate = activityFormAddUpdate;
+    this.btnSubmit = btnSubmit;
+    this.edtDescription = edtDescription;
+    this.edtTitle = edtTitle;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -70,28 +69,28 @@ public final class ActivityNoteAddUpdateBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.appbar;
-      AppBarLayout appbar = ViewBindings.findChildViewById(rootView, id);
-      if (appbar == null) {
+      LinearLayout activityFormAddUpdate = (LinearLayout) rootView;
+
+      id = R.id.btn_submit;
+      Button btnSubmit = ViewBindings.findChildViewById(rootView, id);
+      if (btnSubmit == null) {
         break missingId;
       }
 
-      CoordinatorLayout coordinator = (CoordinatorLayout) rootView;
-
-      id = R.id.nested_scroll_view;
-      NestedScrollView nestedScrollView = ViewBindings.findChildViewById(rootView, id);
-      if (nestedScrollView == null) {
+      id = R.id.edt_description;
+      EditText edtDescription = ViewBindings.findChildViewById(rootView, id);
+      if (edtDescription == null) {
         break missingId;
       }
 
-      id = R.id.toolbar;
-      MaterialToolbar toolbar = ViewBindings.findChildViewById(rootView, id);
-      if (toolbar == null) {
+      id = R.id.edt_title;
+      EditText edtTitle = ViewBindings.findChildViewById(rootView, id);
+      if (edtTitle == null) {
         break missingId;
       }
 
-      return new ActivityNoteAddUpdateBinding((CoordinatorLayout) rootView, appbar, coordinator,
-          nestedScrollView, toolbar);
+      return new ActivityNoteAddUpdateBinding((LinearLayout) rootView, activityFormAddUpdate,
+          btnSubmit, edtDescription, edtTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
