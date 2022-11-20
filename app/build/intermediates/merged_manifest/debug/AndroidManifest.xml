@@ -16,9 +16,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.Application" >
         <activity
-            android:name="com.andihasan7.mynoteapp2.MainActivity"
+            android:name="com.andihasan7.mynoteapp2.ui.main.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.andihasan7.mynoteapp2.ui.insert.NoteAddUpdateActivity" />
 
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"

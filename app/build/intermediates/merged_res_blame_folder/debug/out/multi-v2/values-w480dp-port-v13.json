@@ -4,7 +4,7 @@
             "outputFile": "com.andihasan7.mynoteapp2.app-mergeDebugResources-33:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/356da30e63cd0a82fe95fdfbf05edf91/transformed/material-1.6.1/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+                    "source": "/home/andihasan/.gradle/caches/transforms-3/26740bf8e865b87bdd1404479b2b2d72/transformed/material-1.6.1/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

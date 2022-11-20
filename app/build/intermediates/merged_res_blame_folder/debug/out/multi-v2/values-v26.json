@@ -4,7 +4,7 @@
             "outputFile": "com.andihasan7.mynoteapp2.app-mergeDebugResources-33:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/c37c6d3ff19edbdfa5216425187d658a/transformed/appcompat-1.4.2/res/values-v26/values-v26.xml",
+                    "source": "/home/andihasan/.gradle/caches/transforms-3/75e4d7ed42318fabf05c34300b613a7d/transformed/appcompat-1.4.2/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

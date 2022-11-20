@@ -1,5 +1,13 @@
 package com.andihasan7.mynoteapp2.repository
 
+import android.app.Application
+import androidx.lifecycle.LiveData
+import com.andihasan7.mynoteapp2.database.Note
+import com.andihasan7.mynoteapp2.database.NoteDao
+import com.andihasan7.mynoteapp2.database.NoteRoomDatabase
+import java.util.concurrent.ExecutorService
+import java.util.concurrent.Executors
+
 class NoteRepository(application: Application) {
     
     private val mNotesDao: NoteDao

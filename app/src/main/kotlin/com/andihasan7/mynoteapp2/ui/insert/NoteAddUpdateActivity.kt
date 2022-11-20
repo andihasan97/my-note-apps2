@@ -1,5 +1,18 @@
 package com.andihasan7.mynoteapp2.ui.insert
 
+import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
+import com.andihasan7.mynoteapp2.R
+import com.andihasan7.mynoteapp2.database.Note
+import com.andihasan7.mynoteapp2.databinding.ActivityNoteAddUpdateBinding
+import com.andihasan7.mynoteapp2.helper.DateHelper
+import com.andihasan7.mynoteapp2.helper.ViewModelFactory
+import androidx.lifecycle.ViewModelProvider as ViewModelProvider
+
 class NoteAddUpdateActivity : AppCompatActivity() {
     
     companion object {
@@ -95,7 +108,7 @@ class NoteAddUpdateActivity : AppCompatActivity() {
     private fun obtainViewModel(activity: AppCompatActivity): NoteAddUpdateViewModel {
         
         val factory = ViewModelFactory.getInstance(activity.application)
-        return ViewModelProvider(activity, factory).get(NoteAddUpdateViewModel::class.java)
+        return ViewModelProvider(activity, factory)[NoteAddUpdateViewModel::class.java]
         
     }
     

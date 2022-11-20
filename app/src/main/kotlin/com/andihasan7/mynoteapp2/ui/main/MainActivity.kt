@@ -1,14 +1,18 @@
 package com.andihasan7.mynoteapp2.ui.main
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.content.Context
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.andihasan7.mynoteapp2.R
 import com.andihasan7.mynoteapp2.databinding.ActivityMainBinding
-import com.itsaky.androidide.logsender.LogSender
+import com.andihasan7.mynoteapp2.helper.ViewModelFactory
+import com.andihasan7.mynoteapp2.ui.insert.NoteAddUpdateActivity
 
-public class MainActivity : AppCompatActivity() {
+// import com.itsaky.androidide.logsender.LogSender
+
+class MainActivity : AppCompatActivity() {
     
     private var _activityMainBinding: ActivityMainBinding? = null
     private val binding get() = _activityMainBinding
@@ -16,19 +20,19 @@ public class MainActivity : AppCompatActivity() {
     
     override fun onCreate(savedInstanceState: Bundle?) {
         // Remove this line if you don't want AndroidIDE to show this app's logs
-        LogSender.startLogging(this@MainActivity)
+        // LogSender.startLogging(this@MainActivity)
         super.onCreate(savedInstanceState)
         
         _activityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding?.root)
         
         val mainViewModel = obtainViewModel(this@MainActivity)
-        mainViewModel.getAllNotes().observe(this, { noteList ->
+        mainViewModel.getAllNotes().observe(this) { noteList ->
             if (noteList != null) {
                 adapter.setListNotes(noteList)
             }
-        })
-        
+        }
+
         adapter = NoteAdapter()
         
         binding?.rvNotes?.layoutManager = LinearLayoutManager(this)
@@ -50,6 +54,6 @@ public class MainActivity : AppCompatActivity() {
     
     private fun obtainViewModel(activity: AppCompatActivity): MainViewModel {
         val factory = ViewModelFactory.getInstance(activity.application)
-        return ViewModelProvider(activity, factory).get(MainViewModel::class.java)
+        return ViewModelProvider(activity, factory)[MainViewModel::class.java]
     }
 }

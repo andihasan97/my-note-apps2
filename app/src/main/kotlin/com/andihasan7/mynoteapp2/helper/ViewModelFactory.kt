@@ -1,5 +1,11 @@
 package com.andihasan7.mynoteapp2.helper
 
+import android.app.Application
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import com.andihasan7.mynoteapp2.ui.insert.NoteAddUpdateViewModel
+import com.andihasan7.mynoteapp2.ui.main.MainViewModel
+
 class ViewModelFactory private constructor(private val mApplication: Application) : ViewModelProvider.NewInstanceFactory() {
     companion object {
         

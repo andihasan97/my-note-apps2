@@ -1,5 +1,8 @@
 package com.andihasan7.mynoteapp2.helper
 
+import androidx.recyclerview.widget.DiffUtil
+import com.andihasan7.mynoteapp2.database.Note
+
 class NoteDiffCallback(private val mOldNoteList: List<Note>, private val mNewNoteList: List<Note>) : DiffUtil.Callback() {
     
     override fun getOldListSize(): Int {

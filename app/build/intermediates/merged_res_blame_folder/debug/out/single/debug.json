@@ -1,82 +1,82 @@
 [
     {
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/layout_activity_note_add_update.xml.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/layout/activity_note_add_update.xml"
+    },
+    {
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
         "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/drawable_ic_clear.xml.flat",
         "source": "com.andihasan7.mynoteapp2.app-main-37:/drawable/ic_clear.xml"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/layout_activity_main.xml.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/layout/activity_main.xml"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/layout/activity_main.xml"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/menu_menu_form.xml.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/menu/menu_form.xml"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/drawable/ic_launcher_background.xml"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/drawable_ic_add.xml.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/drawable/ic_add.xml"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.andihasan7.mynoteapp2.app-pngs-30:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/drawable_ic_add.xml.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/drawable/ic_add.xml"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/menu_menu_form.xml.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/menu/menu_form.xml"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/layout_item_note.xml.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/layout/item_note.xml"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/layout_activity_note_add_update.xml.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/layout/activity_note_add_update.xml"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/layout_item_note.xml.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/layout/item_note.xml"
-    },
-    {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-pngs-30:/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.andihasan7.mynoteapp2.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.andihasan7.mynoteapp2.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
     }
 ]

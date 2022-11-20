@@ -1,6 +1,16 @@
 package com.andihasan7.mynoteapp2.ui.main
 
-class NoteAdapter : RecyclerView.Adapter<NoteViewHolder>() {
+import android.content.Intent
+import android.view.LayoutInflater
+import android.view.ViewGroup
+import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.RecyclerView
+import com.andihasan7.mynoteapp2.database.Note
+import com.andihasan7.mynoteapp2.databinding.ItemNoteBinding
+import com.andihasan7.mynoteapp2.helper.NoteDiffCallback
+import com.andihasan7.mynoteapp2.ui.insert.NoteAddUpdateActivity
+
+class NoteAdapter : RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {
     private val listNotes = ArrayList<Note>()
     fun setListNotes(listNotes: List<Note>) {
         val diffCallback = NoteDiffCallback(this.listNotes, listNotes)
