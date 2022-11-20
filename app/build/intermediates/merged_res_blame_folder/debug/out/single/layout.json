@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.andihasan7.mynoteapp2.app-mergeDebugResources-34:/layout/activity_note_add_update.xml",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/layout/activity_note_add_update.xml"
+    },
+    {
+        "merged": "com.andihasan7.mynoteapp2.app-mergeDebugResources-34:/layout/activity_main.xml",
+        "source": "com.andihasan7.mynoteapp2.app-main-37:/layout/activity_main.xml"
+    }
+]
